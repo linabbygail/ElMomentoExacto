@@ -1,0 +1,24 @@
+#calendario-prev { background:url(../img/cal_flecha_izq.png) no-repeat; width:22px; height:22px; float:left; }
+#calendario-mes { text-align:center; float:left; padding-top:2px; }
+#calendario-sigue { background:url(../img/cal_flecha_der.png) no-repeat; width:22px; height:22px; float:right; }
+
+#calendario-cal-busca { font-family:Verdana, Geneva, sans-serif; }
+#calendario-semana div { font-weight:bold; font-size:9px; float:left; height:16px; text-align:center; color:#FFF; background:#666 url(../img/cal_sombragris.png) bottom repeat-x; }
+#calendario-dias-mes { font-size:11px; height:112px; background:#FFF; }
+#calendario-dias-mes div{ float:left; text-align:center; height:16px;  }
+#calendario-cerrar { background:#000; font-size:12px; font-weight:bold; text-align:center; color:#FFF; }
+#super-cal { width:190px; height:150px; background:#000; opacity: .7; position:absolute; }
+#super-cal-load { width:190px; height:22px; padding-top:60px; text-align:center; position:absolute; z-index:2; }
+
+.calendario-div{ border:#000 solid 1px; z-index:5000; }
+.calendario-limpia { clear:both }
+.calendario-titulo { background:#000 top repeat-x; font-size:11px; font-weight:bold; height:22px; color:#FFF; }
+.calendario-dia-x { color:#333; background:#FFF; }
+.calendario-dia-hoy { color:#900; font-weight:bold; }
+.calendario-liga { cursor:pointer; }
+.calendario-dia-liga { cursor:pointer; background:#666; color:#FFF; }
+.calendario-dia-liga:hover { background:#CCC; }
+
+.son-los-inpts input[type=text] { float:left; margin-right:6px; }
+.son-los-inpts .call-to-cal { width:20px; height:20px; display:block; float:left; background-image:url(../img/call_call_call.png); }
+.son-los-inpts .call-to-nota { margin-left:10px; color:#999999; }

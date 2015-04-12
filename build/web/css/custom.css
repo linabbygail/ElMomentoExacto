@@ -1,0 +1,254 @@
+
+
+h1 { color:#33383d;}
+  .main-header { background: url("https://boletia.com/images/landing/boletia-conference.jpg") repeat scroll 0 0 / cover rgba(0, 0, 0, 0); height:60%; }
+    .main-header .inner-head { position: relative;}
+
+    @media all and (min-width: 40.063em) {
+      .main-header .inner-head { top:180px;}
+      .main-header .header-t1 { font-size:2.8em; }
+      .main-header .header-t2 { font-size:1.5em; }
+    }
+    @media only screen and (max-width: 40em) {
+      .main-header .inner-head { top:100px;}
+      .main-header .header-t1 { font-size:2em; }
+      .main-header .header-t2 { font-size:1em; }
+    }
+    @media only screen  {
+      .main-header .inner-head { top:80px;}
+      .main-header .header-t1 { font-size:2em; }
+      .main-header .header-t2 { font-size:1em; }
+    }
+    
+    .main-header .header-t1 { color: #fff; font-family: font-family: 'Fira Mono', serif;
+     font-weight: 700;
+     letter-spacing: 1px;
+     line-height: 1.2;
+     margin: 0 0 16px;
+     padding: 0;
+     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+     
+     margin-bottom:20px;
+    }
+    .main-header .header-t2 {
+     color: #fff;
+     font-weight: 500;
+     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+     margin-bottom:20px;
+    }
+
+.event-main-image {}
+.event-content { height:180px; }
+.event-content ul { margin:0; }
+.event-content li { list-style:none; }
+.side-bar { background: none repeat scroll 0 0 #f9f9f9; font-size:.8em; padding-top: 1em; padding-bottom:1em;
+  border: 1px solid #e5e5e5;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+.title { color:#008cba; }
+.title-right { font-weight: bold; }
+
+.my-event { margin-bottom:20px; font-size:.7em; padding-bottom:.5em; border-bottom: 1px solid #e5e5e5;}
+    .my-event h2 { color:#008cba; font-size:2em; }
+    .my-event h4 { font-size:.8em; }
+    .my-event .ticket { padding: 1em; background-color:#FFF; padding-top: 1em; padding-bottom:1em; list-style:none;
+  border: 1px solid #e5e5e5;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+  .my-event .name-ticket { font-weight:bold; }
+  .my-event .side-bar { padding:.4em; text-align:center; }
+
+.grey { color:#666; }
+
+.orange { background-color: #f77636;
+  background-image: -moz-linear-gradient(center top , #f77636, #d84d09);
+  border-color: #d84d09;
+  box-shadow: 0 1px 0 #bf4508, 0 2px 0 #bf4508, 0 3px 0 #bf4508, 0 4px 0 #bf4508;
+}
+
+.mr-10 { margin-right:10px; width:10px; text-align:center;}
+
+
+.body {
+  font-family: 'Fira Mono', serif ;
+}
+h1 {
+  font-family: 'Fira Mono', serif ;
+  font-weight: 700;
+}
+
+
+
+h2 {font-family: 'Fira Sans', sans-serif;}
+
+.blanco {
+  color: #fff;
+}
+
+.full-width {
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+
+
+  
+}
+
+.full-width-head {
+  width: 100%;
+
+}
+
+.sec {
+  width: 50%;
+
+}
+
+@media screen and (max-width: 720px) {
+  .sec {
+  width: 100%;
+
+}
+}
+
+.azulfondo {
+  background: #3342dc;
+
+}
+.blancofondo {
+  background: #fff;
+
+}
+.verdefondo {
+  background: #84edc8;
+
+}
+
+.blancofondo p {
+  color: #ff4249;
+
+}
+
+.verdefondo p {
+  color: #3342dc;
+
+}
+
+.wrap {
+  width: 95%;
+  max-width: 64em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+}
+
+a.logotexto {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16pt;
+  color: #3342dc;
+
+}
+
+a.landing {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
+  font-size: 41pt;
+  color: #84edc8;
+
+}
+
+.top-bar {
+  background: #84edc8;
+}
+
+.copy {
+  font-family: 'Fira Sans', sans-serif;
+  color: #84edc8;
+  font-weight: 300;
+  font-size: 2.4em;
+  text-align: left;
+  padding-top: 18px;
+  line-height: 1.4em;
+
+
+}
+
+.primeravez {
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2em;
+
+
+}
+
+.lighthead {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  font-size: 36pt;
+  text-align: left;
+
+}
+
+.secondtext {
+  font-family: 'Fira Sans', sans-serif;
+  color: #84edc8;
+  font-weight: 500;
+  font-size: 15pt;
+  text-align: left;
+}
+
+.headinput {
+
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
+  color: #3342dc ;
+}
+
+
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  background-color: #84edc8 ;
+  
+  color: #43c088;
+  border-width: 3px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #43c088;
+}
+
+input.rounded {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #43c088;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-style: italic;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+input.rounded:focus {
+    border-color: #339933;
+}
+
+.boton {
+  background: #3342dc;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 5px;
+  font-size: 15px;
+  font-style: italic;
+ 
+
+}
+
+.boton2 {
+  background: #ff4249;
+  margin-top: 2em;
+}
+
+
